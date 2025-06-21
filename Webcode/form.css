@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #fdfcfb;
+  color: #222;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #eee;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.nav-links a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #333;
+}
+
+.btn-primary {
+  background: #d1b160;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.contact-section {
+  margin-top: 2rem;
+}
+
+.contact-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.contact-section p {
+  margin-bottom: 2rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 1.5rem;
+  padding: 0.75rem;
+  border: none;
+  background: #f4f1ea;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.contact-form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.btn-send {
+  background: #d1b160;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.footer {
+  text-align: center;
+  padding: 2rem;
+  background: #f9f8f6;
+  font-size: 0.9rem;
+  margin-top: 4rem;
+}
+
+.footer-links {
+  margin-bottom: 1rem;
+}
+
+.footer-links a {
+  margin: 0 1rem;
+  color: #8b7e66;
+  text-decoration: none;
+}
+
+        @media (min-width: 768px) {
+      .grid-3 {
+        grid-template-columns: repeat(3, 1fr);
+      }
+
+      .grid-2 {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .team {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
